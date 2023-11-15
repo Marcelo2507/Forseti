@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:  url(../img/fund_login.png);
+    background-size:cover;
+    
+}
+.inputbox{
+font-family: Arial, Helvetica, sans-serif;
+width: 40%;
+height:auto;
+padding: 30px;
+border-radius: 24px;
+background: #D9D9D9;
+margin:80px auto;
+}
+ 
+.h3{
+   font-family: Arial, Helvetica, sans-serif;
+   margin:80px 0;
+   font-size: 18px;
+   text-align: center;
+   color: #fff;
+   text-transform: none;
+}
+
+input{
+    margin-bottom: 10px;
+    width:100%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 17px;
+    padding: 7px 0;
+    cursor: pointer;
+}
+
+label{
+    margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    background-color:black;
+    color: white;
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.processo{
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+.processo2{
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+.btnVoltar{
+    transition-duration: 200ms;
+    width:70px; 
+    position: absolute; 
+    left:40px; 
+    top:50px; 
+}
+.btnVoltar:hover{
+    transition-duration: 300ms;
+    width: 100px;
+}
+@media (max-width: 500px)
+{
+    .inputbox
+   {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+   }
+} 

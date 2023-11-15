@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro do Advogado</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/cadastro.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<body>
+<br>
+<br>
+<br>
+	<div class ="conteudo">
+		<div class ="container">
+			<h1 style="color:white; margin-top:-20px;">Cadastro do Advogado</h1>
+			<div class="formulario">
+			<form class="form" method="post" action="../Php/apiAdvogado.php">
+
+				<div class="form-item">
+				<label class="label">Nome:</label><br>
+				<input class="input" type="text" name="nm_pessoa" placeholder=" Digite seu nome "><br>
+				</div>
+
+				<div class="form-item">
+				<label class="label">Telefone:</label><br>
+				<input class="input" type="text" name="telefone" placeholder=" (00)12345-6789 "><br>
+			</div>
+
+			<div class="form-item">
+				<label class="label">E-mail:</label><br>
+				<input class="input" type="text" name="email" placeholder=" seuemailaqui72@hotmail.com "><br>
+			</div>
+
+			<div class="form-item">
+      <label class="label">Data de nascimento</label>
+    <input class="input" id="date" type="date" name="dt_nasc">
+    </div>
+
+			<div class="form-item">
+      <label for="">Estado: </label>
+      <select class="input" name="estado" id="estado">
+        <option disabled selected value="0">Selecione um estado</option>
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio de Janeiro</option>
+       </select>
+    </div>
+
+    <div class="form-item">
+      <label for="">Cidade: </label>
+      <select class="input" name="cidade" id="cidade"> 
+        <option disabled selected value="0">Selecione uma Cidade</option>
+       </select>
+    </div>
+
+			<div class="form-item">
+				<label class="label">Senha:</label><br>
+				<input class="input" type="password" name="senha" placeholder=" Digite sua senha"><br>
+			</div>
+
+			<div class="form-item">
+				<label class="label">Confirmar Senha:</label><br>
+				<input class="input" type="password" name="confirmar_senha" placeholder=" Digite sua senha">
+			</div>
+
+			
+			<div class="form-item">
+				<label class="label">CNPJ:</label><br>
+			
+				<input class="input" type="text" name="cnpj" placeholder=" Digite seu N°"><br><br>
+				
+			</div>
+
+			<div class="form-item">
+				<label class="label">OAB:</label><br>
+				<input class="input" type="text" name="oab" placeholder=" Digite seu N°"><br><br>
+			</div>
+
+			<div style="margin-left: 14%; margin-right: auto; width: 85%;">
+				<button style="width: 40%; background-color: #fff; border: #000 solid 2px; border-radius: 20px; font-size: 1em;">
+					Cancelar
+				</button>
+				<button style="width: 40%; background-color: #000; color: #fff; border-radius: 20px; font-size: 1em;">
+					Confirmar
+				</button>
+				</div>
+
+				<br>
+				<br>
+				
+				<p style="margin-left: auto; margin-right: auto;">
+            <a href="login_advogado.html" style="text-decoration: none; color: #000; display:flex; justify-content:center;">
+            Faça login
+          </a>
+          </p>
+			</form>
+		</div>
+	</div>
+	</div>
+	<br>
+	<br>
+	<br>
+
+	<!-- fim footer -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+	let estado = document.getElementById('estado');
+        let cidade = document.getElementById('cidade');
+
+        estado.onchange = function(){
+           
+            if(estado.value === "RJ"){
+                cidade.innerHTML = '<option disabled selected value="0">Selecione uma Cidade</option> <option value ="Maricá">Maricá</option> <option value ="Macaé">Macaé</option> '
+            } else if(estado.value === "SP"){
+                cidade.innerHTML = '<option disabled selected value="0">Selecione uma Cidade</option> <option value ="Itanhaém">Itanhaém</option> <option value ="Santos">Santos</option> '
+                }
+            }
+        </script>
+</body>
+</html>

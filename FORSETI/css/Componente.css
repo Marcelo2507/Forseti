@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:  url(../img/fund_login.png);
+    background-size:cover;
+    
+}
+.inputbox{
+font-family: Arial, Helvetica, sans-serif;
+width: 650px;
+height: 560px;
+padding: 30px;
+border-radius: 24px;
+margin:50px auto;
+}
+ 
+.h3{
+   font-family: Arial, Helvetica, sans-serif;
+   margin:80px 0;
+   font-size: 18px;
+   text-align: center;
+   color: #fff;
+   text-transform: none;
+}
+
+input{
+    margin-bottom: 10px;
+    width:100%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 0;
+    cursor: pointer;
+}
+
+label{
+    margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    padding: 60px 0 25px 0;
+    background-image:  url(img/rodapé.png);
+    color: white;
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.processo{
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+.processo2{
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+.btnVoltar{
+    transition-duration: 200ms;
+    width:70px; 
+    position: absolute; 
+    left:40px; 
+    top:55px; 
+}
+.btnVoltar:hover{
+    transition-duration: 300ms;
+    width: 90px;
+}
+.btn-group{
+	margin: 10px 0 0 0;
+}
+.bo{
+	margin:0 3px 0 0;
+}
+.cont-bo{
+	padding:40px 0 20px 0;
+	text-align: center;
+}
+@media (max-width: 706px)
+{
+    .inputbox
+   {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+   }
+} 

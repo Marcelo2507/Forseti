@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  background-image: url(../img/fund_login.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+/*menu da pagina*/
+
+#menu{
+  background: rgb(0, 0, 0);
+  z-index: 1000;
+  color: #fff;
+  }
+  
+#menu li{
+  margin-left: 50px;
+}
+
+
+#menu a{
+  text-decoration: none;
+  color: #fff;
+}
+
+  
+/*fim do menu*/
+
+h1{
+  text-align: center;
+  
+}
+
+.formulario{
+  background-image:url(../img/fund_cad.png) ;
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.input{
+  width: 100%;
+  border-radius: 5px;
+}
+
+/*secao*/
+#secao_4{
+  
+  width: auto;
+  height: 110vh;
+  background-color: #000;
+}
+
+/*fim da secao*/
+
+.col-md-5{
+  margin-top: 15%;
+  height: auto;
+  
+}
+
+.col-md-6{
+  margin-top: 15%;
+  height: auto;
+  color: #fff;
+  text-align: justify;
+  font-size: 1.2em;
+  
+}
+
+
+/*inicio footer*/
+.footer{
+	width: 100%;
+	background-color: #000;
+  }
+
+
+

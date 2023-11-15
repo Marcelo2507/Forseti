@@ -1,0 +1,278 @@
+<!--Começo da página convidativa-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--CSS-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="../css/convidativa.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!--JS-->
+    <title>Forseti</title>
+</head>
+<body>
+    
+<!--Menu da página-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
+        <img src="../img/image_1.png" style="width: 2rem; height: 1.99rem">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mx-auto">
+
+             <li class="nav-item active">
+               <a class="nav-link" href="#secao">Home <span class="sr-only">(página atual)</span></a>
+             </li>
+
+             <li class="nav-item">
+               <a class="nav-link" href="#secao_2">Sobre</a>
+             </li>
+              <li class="nav-item">
+               <a class="nav-link" href="#secao_3">Responsabilidade</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#secao_4">Contato</a>
+             </li>
+             <li class="nav-item">
+               <a class="btn btn-dark" href="login_cliente.html" role="button" data-toggle="modal" data-target="#ExemploModalCentralizado2" style="background: #FFD700; color: #000;">Login</a>
+               <a class="btn btn-dark" href="cad_cliente.html" role="button" data-toggle="modal" data-target="#ExemploModalCentralizado" style="background: #D3D3D3; color: #000;">Cadastrar-se</a>
+             </li>
+             
+          </ul>
+        </div>
+      </nav>
+
+
+
+<!-- Modal Cadastro Cliente e profissional-->
+<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalCentralizado">Fazer cadastro:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body" style="text-align:center;">
+                <h5 class="card-title" style="text-align:center;">Cliente</h5>
+                <img src="https://cdn-icons-png.flaticon.com/512/74/74472.png" style="width:80%;">
+                <a href="cad_cliente.html" class="btn" style="background:#FFD700; color:black;">Cadastrar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body" style="text-align:center;">
+                <h5 class="card-title" style="text-align:center;">Profissional</h5>
+                <img src="https://cdn-icons-png.flaticon.com/512/1995/1995453.png" style="width:80%">
+                <a href="../PROFISSIONAL/cad_advogado.html" class="btn" style="background:#FFD700; color:black;">Cadastrar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Login cliente e profissional-->
+<div class="modal fade" id="ExemploModalCentralizado2" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalCentralizado">Fazer Login:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body" style="text-align:center;">
+                <h5 class="card-title" style="text-align:center;">Cliente</h5>
+                <img src="https://cdn-icons-png.flaticon.com/512/74/74472.png" style="width:80%;">
+                <a href="login_cliente.html" class="btn" style="background:#FFD700; color:black;">Logar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body" style="text-align:center;">
+                <h5 class="card-title" style="text-align:center;">Profissional</h5>
+                <img src="https://cdn-icons-png.flaticon.com/512/1995/1995453.png" style="width:80%">
+                <a href="../PROFISSIONAL/login_advogado.html" class="btn" style="background:#FFD700; color:black;">Logar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--fim do menu-->
+
+<!--Conteudo-->
+<div class="back">
+      <section id="secao">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5">
+              <center>
+              <img src="../img/image_1.png" style="width: 20rem; height: 19rem;">
+            </center>
+            </div>
+            <div class="col-md-6" style="padding:28px 50px 50px 50px; ">
+
+              <h3 class ="textApresent">
+              Seja muito bem-vindo(a) ao Forseti. 
+          Aqui você terá um excelente serviço de assessoria jurídica, de maneira online, gratuita, segura e prática, possibilitando ainda mais uma grande proximidade entre profissional e cliente.</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+ 
+      <section id="secao_2">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5" style="">
+              <center>
+              <img src="../img/justice.png" style="width: 20rem;">
+            </center>
+            </div>
+            <div class="col-md-6" style="padding:59px">
+           <h3 class ="sobreText">
+               Sendo uma importante ferramenta na área da advocacia. O objetivo principal é que o site vise auxiliar cliente e profissional a ajustar os termos de um acordo e possibilitar o envio de documentos pela plataforma, etc.
+         </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+<br>
+      <section id="secao_3">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5" style="">
+              <center>
+              <img src="../img/responsabilidade.png" style="width: 20rem;">
+            </center>
+            </div>
+            <div class="col-md-6" style="padding:50px">
+              <h4 class ="valoresText">
+           
+
+           Nossa missão é promover o serviço de assessoria jurídica de forma online.
+            <br>
+            <br>
+            
+
+            Tendo como visão e foco se tornar uma ferramenta essencial para a área da advocacia.
+            <br>
+            <br>
+            
+
+             O principal valor da Forseti é a realização de todos os procedimentos relacionados a processos de maneira ética e segura.
+         </h4>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+    </div>
+
+<section id="secao_4"><div class="row">
+  <!--div class="col-12 col-sm-10 col-md-8 col-lg-6">
+
+  </div-->
+</div>
+
+  <footer class ="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5" style="padding:0 100px;">
+          <h3 style="color: #fff;">Redes sociais</h3>
+     <br>
+     <ul style="list-style: none;">
+       <li><a href="#" style="color: #fff; text-decoration: none">
+        <img src="../img/facebook.png" style="width: 2em;"> Facebook</a></li>
+        <br>
+       <li><a href="#" style="color: #fff; text-decoration: none">
+        <img src="../img/instagram.png" style="width: 2em; ">
+        Instagram</a></li>
+        <br>
+       <li><a href="#"style="color: #fff; text-decoration: none">
+        <img src="../img/whatsapp.png" style="width: 2em;">
+        WhatsApp</a></li>
+       <br>
+     </ul>
+        </div>
+        <div class="col-md-6">
+          
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nome</label>
+              <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Seu nome">
+              
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Endereço de e-mail</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+            </div>
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">Número</label>
+                <input type="number" class="form-control" id="exampleInputNumeber" placeholder="(00) 0000-0000">
+              </div>
+
+              <div class="form-group">
+                <label for="msg">Mensagem:</label><br>
+                <textarea id="msg" style="width: 100%; height: 20vh;"></textarea>
+              </div>
+
+             <a href="mailto:Forseti@email.com" >
+               <button class="btn btn-dark" style="background: #FFD700; color:#000; outline: none">Entrar em contato</button>
+              </a>
+          
+        </div>
+      </div>
+    </div>
+    <br>
+    <center>
+    <p style="color: #fff; margin-bottom:0px;">Forseti - Todos os Direitos Reservados.</p> 
+    </center>
+    
+  </footer>
+
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

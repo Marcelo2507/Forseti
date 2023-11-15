@@ -1,0 +1,198 @@
+	   *{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			font-family: arial;
+			background-image: url(../img/fund_login.png);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+  			font-family: @import url(https://fonts.google.com/specimen/Open+Sans);
+		}
+	.conteudo{
+			width:100%;
+			height:100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		.container{
+			width: 40%;
+			height: auto;
+			background-image: url(../img/fund_cad.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 10px;
+			border-radius:0px 30px 30px 30px;
+
+		}
+		.conteudo .container h1 {
+			font-size: 20px;
+			padding: 10px 0 0 0;
+			text-align: center;
+		}
+
+		.conteudo form{
+			padding: 30px;
+		}
+		.conteudo input{
+			margin:0 0 6px 0;
+			
+			
+		}
+		.conteudo input{
+			width: 100%;
+		}
+		.conteudo label{
+			font-size:1em;
+		}
+		.nav {
+			width: 100%;
+			height: 100px;
+			background: #c9c9c9;
+		}
+
+
+
+
+
+/*Formulário*/
+
+
+input, textarea {
+
+  border: 0;
+  outline: 0;
+  font-size: 0.8em;
+  background: transparent;
+  color: #000000;
+  position: relative;
+  font-family: 'arial';
+
+}
+
+textarea { resize: none; }
+
+.formulario {
+
+  max-width: 100%;
+  margin: 0 auto;
+ 
+
+}
+
+.form {
+	
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.form-item {
+
+  position: relative;
+  width: 100%;
+  padding: 1em;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .form-item.col-responsive { width: 50%; }
+
+}
+
+.form-item .textarea {
+
+  height: 10em;
+
+}
+.form-item .input, .form-item .textarea {
+
+  display: block;
+  padding: 1em;
+  width: 100%;
+  transition: all 0.3s;
+  border-bottom: 2px solid #000000;
+
+}
+
+
+.form-item .input:valid + .label, .form-item .input:focus + .label, .form-item .textarea:valid + .label, .form-item .textarea:focus + .label {
+
+  top: 1em;
+  left: 1em;
+  font-size: 0.9em;
+
+}
+
+.form-item .input:valid, .form-item .textarea:valid {
+
+  border-bottom: 2px solid #000000;
+
+}
+
+.form-item .label {
+
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  text-transform: capitalize;
+  transition: all 0.3s;
+
+}
+
+.form-item .botao {
+
+  display: block;
+  width:40%;
+  height: 2rem;
+  border-radius:3px; 
+  color: #ffffff;
+  transition: all 0.3s;
+	border-radius: 10px;
+	background: #000000;
+	justify-content: center;
+	margin-left: auto; margin-right: auto;
+}
+
+.form-item .botao:hover {
+
+  background: #828282;
+  color: #ffffff;
+  border:2px #828282 solid;
+
+}
+
+.form-item .botao:active {
+
+  background-color:#ff9000;
+  color:#ffffff;
+  border:2px #ff9000 solid; 
+
+}
+
+.botao{
+	border-radius: 20px;
+}
+/*Formulário*/
+
+/*inicio footer*/
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: #000;
+  }
+  .col-5{
+	background-color: aqua;
+	display: inline-block;
+	justify-content: center;
+	display: inline-block;
+	margin-left: 5%;
+	height: 80vh; 
+	
+  }

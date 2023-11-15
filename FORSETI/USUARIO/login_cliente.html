@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Cliente</title>
+    <link rel="stylesheet" type="text/css" href="../css/login_cad.css">
+     
+  </head>
+  <body>
+
+    
+  <div class ="conteudo">
+    <div class ="container">
+      <h1 style="font-size: 2em"> Seja bem-vindo!</h1>
+
+        <div class="formulario">
+    
+        <form class="form" action="../Php/clienteLogin.php">
+
+          <div class="form-item">
+            <input class="input" type="text" name="email" required="required" id="usuario"/>
+            <label class="label" for="usuario">Usuário</label>
+          </div>
+          
+           
+          <div class="form-item">
+            <input class="input" type="password" name="senha" required="required" id="senha"/>
+            <label class="label" for="senha">Senha</label>
+          </div>
+          
+          
+          <div class="form-item">
+            <input class="botao" type="submit" value="Login"/>
+          </div>
+          
+          <p style="margin-left: auto; margin-right: auto;">
+            <a href="cad_cliente.html" style="text-decoration: none; color: #000;">
+            Crie uma conta
+          </a>
+          </p>
+        </form>
+        
+    </div><!--Class Formulario-->
+    </div>
+  </div>
+  
+  </body>
+</html>

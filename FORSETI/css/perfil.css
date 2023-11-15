@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body{
+    background-image: url(../img/fund_login.png);
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  body::-webkit-scrollbar{
+    display: none;
+    
+  }
+
+  .btnVoltar{
+    transition-duration: 200ms;
+    width:65px; 
+    position: absolute; 
+    left:40px; 
+    top:55px; 
+}
+.btnVoltar:hover{
+    transition-duration: 300ms;
+    width: 80px;
+}
+  
+  /*menu da pagina*/
+  
+  #menu {
+    background: rgb(0, 0, 0);
+    z-index: 1000;
+    color: #fff;
+    }
+    
+
+    
+  /*fim do menu*/
+  
+  
+  /*perfil*/
+
+  
+
+  /* Esconde o texto "Nenhum arquivo escolhido" */
+  /* Estiliza o campo de upload personalizado */
+  .botads{
+    display: flex;
+    justify-content: center;
+  }
+  .custom-file-upload {
+    padding: 6px 12px;
+    width: 35%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+  /* Oculta o campo de input do tipo file */
+  .custom-file-upload input[type="file"] {
+    display: none;
+  }
+  .card {
+    padding: 30px 25px 35px 50px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px 0px #ffe600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+    .box{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    input {
+    padding: 2px 0px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    }
+
+    @media screen and (max-width: 575px) {
+    .border-line {
+    border-right: none;
+    border-bottom: 1px solid #EEEEEE;
+    }
+    }
+@media (max-width:1000px){
+  .botads{
+    width: 100%;
+  }
+  /*fim do perfil*/
+}
+
+/* formulario */
+
+  .formulario { 
+
+    max-width:480px; 
+    margin:50px auto; 
+
+  }
+
+  .campo {
+
+  color: #000000;
+  font-family: arial;
+  font-size: 16px;
+  border-radius: 10px;
+  line-height: 20px;
+  background-color: transparent;
+  border: 2px solid #D2D2D2;
+  transition: all 0.3s;
+  padding: 11px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  border: solid #000 2px;
+  }
+
+
+  textarea {
+
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+
+  }
+
+  .botao {
+
+  font-family: arial;
+  width: 100%;
+  background:#000000;
+  color: #ffffff;
+  border-radius:10px;
+  border:0;
+  cursor:pointer;
+  font-size:22px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+
+  }
+
+  .botao:hover { background:#ffe600; }
+
+
+/* fim formulario */
+
+/* perfil 2 */
+
+  .box img{
+
+    max-width: 100px;   /* Máximo da largura da imagem */
+    width: 100%;
+    max-height: 500px;  /* Máximo da altura da imagem */
+    min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+
+
+/*  */
+
+  /*inicio footer*/
+ .footer{
+    text-align: center;
+    width: 100%;
+    padding: 35px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+  .col-5{
+    background-color: rgb(251, 255, 0);
+    display: inline-block;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 5%;
+    height: 80vh; 
+    
+
+  }

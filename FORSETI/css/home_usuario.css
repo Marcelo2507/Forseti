@@ -1,0 +1,109 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url(../img/fund_login.png);
+  background-size: cover;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+  
+}
+
+/*menu da pagina*/
+  
+/*fim do menu*/
+
+/* Estilo cards */
+ 
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+}
+.card:hover {
+  transform: translateY(-30px);
+  cursor: pointer;
+}
+ 
+.card p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+ 
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+.blue {
+  border-left: 3px solid #4895ff;
+}
+ 
+.green {
+  border-left: 3px solid #3bb54a;
+}
+ 
+.red {
+  border-left: 3px solid #b3404a;
+}
+/* fim cards */
+
+/* noticias */
+.galery{
+  padding: 0 0 50px;
+  margin: 0 auto;
+}
+.cont-not{
+  padding: 20px 0;
+  flex-wrap:wrap;
+    
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* fim noticias */
+
+
+
+/*inicio footer*/
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+
+
+@media (max-width:748px){
+  .noticia_1{
+  
+ 
+  font-size:9px;
+}
+
+
+.noticia_2{
+  
+  
+  font-size: 9px;
+}
+
+.noticia_3{
+  font-size: 9px;
+  
+  
+}
+}
+

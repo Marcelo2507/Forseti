@@ -1,0 +1,142 @@
+:root{
+    --color-primary:#FFC000;
+    --color-secundary:#3c2915;
+    --color-primary-dark:#E3AA00;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-size:cover;
+    background-image: url(../img/fund_login.png);
+}
+
+/*menu da pagina*/
+
+#menu{
+  background: rgb(0, 0, 0);
+  height: 54px;
+  color: #fff;
+  }
+  
+#menu li{
+  padding:0 40px;
+}
+
+
+#menu a{
+  text-decoration: none;
+  color: #fff;
+}
+  
+/*fim do menu*/
+
+#filtro{
+    margin:9px 0 0 0;
+    font-size: 1.8em;
+    border-radius: 15px;
+    
+}
+
+form{
+    padding:0.5em;
+    border-radius: 15px;
+    
+}
+.adv{
+    background: #000;
+    width: 98%;
+    padding:0.5em;
+    border-radius: 15px;
+    margin-left: 3%;
+}
+
+.col-sm-7{
+    
+    display: inline-block;
+}
+.inputs{
+    border:2px solid gray;
+    border-radius: 15px;
+    font-size:15px;
+    padding:0 0 0 10px;
+    height: 45px;
+    width: 100%;
+    box-shadow: none;
+}
+.container{
+    transition-duration:500ms;
+    padding:100px 0;
+}
+.btnPerfil{
+    font-weight: 400;
+    color: #fff; 
+    background: var(--color-primary-dark); 
+    border:none;
+    border-radius: 12px; 
+    font-size: 1.1em; 
+    padding: 8px;
+    width: 120px; 
+    float: right;
+}
+.btnPerfil:hover{
+    background: var(--color-primary); 
+    border:none;
+    cursor:pointer;
+}
+.btnFechar{
+    font-weight: 400;
+    color: white; 
+    background: black; 
+    border:none;
+    border-radius:12px; 
+    font-size: 1.1em; 
+    padding: 8px;
+    width: 80px; 
+    float: right;
+}
+
+.btnPerfilC{
+    color: white; 
+    background:var(--color-primary);
+}
+.btnFechar:hover{ 
+    background:gray; 
+}
+.button{
+    font-family:arial; 
+    border:none; 
+    background-color:var(--color-primary-dark); 
+    color:white; 
+    border-radius:15px; 
+    font-size: 0.8em; 
+    width:100%; 
+    text-align:center; 
+    padding:6px; 
+    font-weight:bold;
+}
+.button:hover{
+    
+    transition-duration: 200ms;
+    cursor:pointer;
+    background-color:var(--color-primary);
+}
+
+.btnVoltar{
+    transition-duration: 200ms;
+    width:70px; 
+    position: absolute; 
+    left:40px; 
+    top:45px; 
+}
+.btnVoltar:hover{
+    transition-duration: 300ms;
+    width: 90px;
+}
+/*#E3AA00*/
+label{
+    font-size: 23px;
+}
